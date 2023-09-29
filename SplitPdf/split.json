@@ -1,0 +1,58 @@
+{
+  "splitInvName": "%%%invoiceNum%%%.pdf",
+  "splitDepthName": "%%%invoiceNum%%%_D.pdf",
+  "outFolder":  ".\\out",
+  "splitDocs": [
+    {
+      "inputFile": "docInput.pdf",
+      "fromInvoice": 1,
+      "toInvoice": 4,
+      "fromDepth": 5,
+      "toDepth": 10,
+      "metakeys":
+        {
+          "customer": "cust01",
+          "receiverName": "rcv01",
+          "receiverStreet": "via qualche cosa 01",
+          "receiverZipCode": "00001",
+          "receiverCity": "Genova",
+          "receiverRegion": "GE",
+          "invoiceNum": "000001"
+        }
+    },
+    {
+      "inputFile": "docInput.pdf",
+      "fromInvoice": 11,
+      "toInvoice": 14,
+      "fromDepth": 15,
+      "toDepth": 20,
+      "metakeys":
+        {
+          "customer": "cust01",
+          "receiverName": "rcv02",
+          "receiverStreet": "via qualche cosa 02",
+          "receiverZipCode": "00002",
+          "receiverCity": "Genova",
+          "receiverRegion": "GE",
+          "invoiceNum": "000002"
+        }
+    },
+    {
+      "inputFile": "docInput.pdf",
+      "fromInvoice": 21,
+      "toInvoice": 24,
+      "fromDepth": 25,
+      "toDepth": 30,
+      "metakeys":
+        {
+          "customer": "cust03",
+          "receiverName": "rcv03",
+          "receiverStreet": "via qualche cosa 03",
+          "receiverZipCode": "00003",
+          "receiverCity": "Genova",
+          "receiverRegion": "GE",
+          "invoiceNum": "000003"
+        }
+    }
+  ]
+}
